@@ -1,0 +1,25 @@
+<h1>Список книг</h1>
+<div id="result_container"></div>
+<table class="table table-condensed">
+  <thead>
+    <tr>
+      <th>№</th>
+      <th>Автор</th>
+      <th>Название</th>
+      <th>Жанр</th>
+      <th>Дата добавления</th>
+   </tr>
+  </thead>
+  <tbody id="table_body"></tbody>
+</table>
+<div id="more_link"><a class="btn" href="#">Показать ещё</a></div>
+
+<script id="trTemplate" type="text/template">
+  <tr id="pager_<%= id %>">
+    <td><%= id %></td>
+    <td><%= author %></td>
+    <td><%= title %></td>
+    <td><%= genre %></td>
+    <td><%= moment( moment(date) ).format( 'MM/DD/YYYY, H:mm:ss' ) %></td>
+  </tr>
+</script>
