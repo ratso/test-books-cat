@@ -11,4 +11,6 @@
 Дря реализации исползьовались:
  * 	PHP framework fatFree (http://bcosca.github.com/fatfree/)
  *  JS библиотека jQuery
+ *  JS-фреймворк Backbone.JS
+ *  js-библиотека Moment JS для отображения дат
  *  CCS Фреймворк Twitter Bootstrap http://twitter.github.com/bootstrap/
